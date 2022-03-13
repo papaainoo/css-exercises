@@ -1,7 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align:center;
 }
-
+  
 img {
   width: 100px;
   height: 100px;
@@ -11,9 +12,21 @@ img {
   font-size: 36px;
   font-weight: 900;
   display:flex;
-  justify-content:center
+  text-align:center;
+  margin-bottom:32px;
 }
-
+.container {
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  gap:52px;
+}
+.box{
+  display:flex;
+  max-width:200px;
+}
+  
+  
 /* do not edit this footer */
 .footer {
   position: fixed;
